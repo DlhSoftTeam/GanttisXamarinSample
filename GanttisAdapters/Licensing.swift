@@ -12,6 +12,6 @@ import GanttisTouch
 public class GanttisLicense: NSObject {
     /// To be called upon AppDelegate initialization.
     public override init() {
-        GanttisTouch.license = ""
+        GanttisTouch.license = "..."
     }
 }
