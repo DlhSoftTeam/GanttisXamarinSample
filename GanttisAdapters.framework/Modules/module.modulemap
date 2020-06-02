@@ -1,0 +1,11 @@
+framework module GanttisAdapters {
+  umbrella header "GanttisAdapters.h"
+
+  export *
+  module * { export * }
+}
+
+module GanttisAdapters.Swift {
+    header "GanttisAdapters-Swift.h"
+    requires objc
+}
